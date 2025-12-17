@@ -41,3 +41,30 @@ This work is published under [MIT][mit] License.
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+## Setting up the Environment
+
+### Setting up Natively (Recommended for Unix-like OS)
+
+For Unix-like systems, you can set up the environment natively for optimal performance, though you can also use Dev Containers as an alternative.
+
+**Steps**:
+
+1. Follow the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) to install Jekyll and ensure [Git](https://git-scm.com/) is installed.
+2. Clone your repository to your local machine.
+3. If you forked the theme, install [Node.js][nodejs] and run `bash tools/init.sh` in the root directory to initialize the repository.
+4. Run command `bundle` in the root of your repository to install the dependencies.
+
+## Usage
+
+### Start the Jekyll Server
+
+To run the site locally, use the following command:
+
+```terminal
+$ bundle exec jekyll serve
+```
+
+After a few seconds, the local server will be available at <http://127.0.0.1:4000>.
+
+OKOKOKOKOK
