@@ -3,6 +3,7 @@ title: SSLSocketImpl 内存泄漏
 date: 2025-12-15 9:00:00 +0800
 categories: [Blogging, Java]
 tags: [java]
+description: 本文深入分析 Java 应用中 SSLSocketImpl 导致的内存泄漏问题，通过堆分析定位原因，揭示 Finalizer 对象堆积及连接未及时回收的核心根源，并提供实用的优化与解决思路，帮助开发者排查 HTTPS 连接引起的内存增长
 ---
 
 ## 发现问题

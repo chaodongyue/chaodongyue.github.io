@@ -3,6 +3,7 @@ title: Apache POI 以流（Stream）的方式下载Excel
 date: 2025-12-12 17:00:00 +0800
 categories: [Blogging, Java]
 tags: [java]
+description: 深入讲解使用 Apache POI 实现 Excel 文件流式输出的方法，涵盖大数据量导出、SXSSFWorkbook 流式写入解决 OOM、边读取数据边输出到客户端的实践示例与优化技巧，帮助 Java 开发者构建高效 Excel 导出接口
 ---
 
 > 文章写于2019年, 可能已过时或有出入

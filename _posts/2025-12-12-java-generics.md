@@ -3,6 +3,7 @@ title: Java 泛型通配符
 date: 2025-12-12 15:00:00 +0800
 categories: [Blogging, Java]
 tags: [java]
+description: 介绍 Java 泛型通配符的原理与使用，包括 <? extends T> 上界、<? super T> 下界的赋值规则、读写行为差异及实际应用场景，帮助 Java 开发者更清晰理解泛型边界与类型安全
 ---
 
 # Java 泛型通配符
