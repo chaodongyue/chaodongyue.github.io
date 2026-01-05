@@ -1,9 +1,9 @@
 ---
 title: 在Kubernetes内集成Let's Encrypt和阿里云DNS
-#date: 2025-12-15 09:00:00 +0800
-categories: [Blogging, DevOps]
+# date: 2025-12-15 09:00:00 +0800
+categories: [Blogging, DevOps, Kubernetes]
 tags: [devops, kubernetes]
-description: 系统讲解如何估算线程池大小，基于任务类型区分 CPU 密集型与 IO 密集型，结合 CPU 核数与等待/计算时间比给出线程数计算思路，并分析估算公式及实际调整策略，帮助 Java 并发开发者合理配置线程池以提升性能
+description: TODO
 ---
 
 由于互联网对于安全的要求越来越严, 有很多中间件即使是部署在内网, 它也强制要求你使用HTTPS协议.
