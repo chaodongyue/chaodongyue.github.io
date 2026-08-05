@@ -65,7 +65,12 @@ To run the site locally, use the following command:
 $ bundle exec jekyll serve --livereload --drafts --force_polling --incremental
 ```
 
-After a few seconds, the local server will be available at <http://127.0.0.1:4000>.
+clean cache
+```bash
+bundle exec jekyll clean
+```
+
+After a few seconds, the local server will be available at <http://127.0.0.1:4000>
 
 
 ### commit
