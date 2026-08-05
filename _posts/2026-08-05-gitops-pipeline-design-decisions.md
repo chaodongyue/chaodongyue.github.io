@@ -1,6 +1,6 @@
 ---
-title: GitOps 流水线的几个关键设计决策：镜像怎么标识、仓库并发怎么写、生产怎么把关
-date: 2026-08-05 09:00:00 +0800
+title: GitOps 流水线设计：镜像 digest、并发写仓库、生产发布把关
+date: 2026-08-05 10:00:00 +0800
 categories: [Blogging, DevOps, Kubernetes]
 tags: [devops, gitops, kubernetes, ci-cd]
 description: 从一条稳定运行了几年、覆盖几十个微服务和三套环境的 GitOps 流水线出发，拆解几个具体设计决策——镜像标识为什么要锁 sha256 digest 而不是 tag、多条流水线并发写同一个 GitOps 仓库怎么处理冲突、生产环境为什么要保留手动同步这道闸门，而不是一篇工具选型清单。
