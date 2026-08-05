@@ -2,7 +2,7 @@
 title: 私有化 AI 模型性能与准确率实测
 date: 2025-07-23 09:00:00 +0800
 categories: [Blogging, AI]
-tags: [ai, llm, reranker, tool-calling]
+tags: [ai, llm]
 description: 基于 vLLM 部署 Qwen3、DeepSeek 等 Chat 与 Reranker 模型，记录 JMeter 并发压测、响应延迟及 Tool Calling 准确率测试结果。
 ---
 

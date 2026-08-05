@@ -2,7 +2,7 @@
 title: Spring Security 集成 OAuth 2.0 与 OpenID Connect
 date: 2026-08-05 09:00:00 +0800
 categories: [Blogging, Java, Security]
-tags: [spring-security, oauth2, openid-connect, keycloak]
+tags: [java, spring-security]
 description: 介绍 OAuth 2.0 的常见授权模式，以及 Spring Security 作为 OAuth 2.0 Client 和 Resource Server 集成 Keycloak 的配置与实现。
 ---
 
