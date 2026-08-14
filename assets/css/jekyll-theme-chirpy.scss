@@ -1,0 +1,32 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/*
+ * Chirpy 主题的 %table-cell 占位符（_sass/abstracts/_placeholders.scss）给表格
+ * th/td 设了 white-space: nowrap，导致 Markdown 表格长文本把表格撑宽、出现横向滚动条。
+ * 这里只针对 .table-wrapper（Liquid 只在渲染 Markdown 表格时才生成这个容器，
+ * 不会影响代码块、导航栏等其他组件）覆盖为可换行。
+ * 用 !important 是因为要覆盖的是 @extend 生成的占位符规则，其选择器特殊性
+ * 和源码顺序不便预判，直接覆盖这三条属性最稳妥、改动最小。
+ */
+.table-wrapper > table {
+  th,
+  td {
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+  }
+}
