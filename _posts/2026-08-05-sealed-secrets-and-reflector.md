@@ -2,7 +2,7 @@
 title: GitOps 里 Secret 安全提交与跨 namespace 分发
 date: 2026-08-05 11:00:00 +0800
 categories: [Blogging, DevOps, Kubernetes]
-tags: [kubernetes, gitops, secrets, sealed-secrets, reflector]
+tags: [kubernetes, gitops, secrets, sealed-secrets]
 description: GitOps 要求所有部署状态都进 Git，但数据库密码、API Key 这类 Secret 明文进 Git 是绝对不能接受的。这篇文章讲清楚我们怎么用 Sealed Secrets 把加密后的 Secret 安全地提交到仓库、加密范围（scope）怎么选，以及同一份配置要在多个业务 namespace 里都有一份时怎么用 Reflector 自动分发，而不是手动复制。
 ---
 
